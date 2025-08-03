@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="../css/global.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Odin Project - Books</title>
+</head>
+<body>
+
+	<script>
+		// JavaScript code can go here
+		function Book(tile, author, pages) {
+			if (!new.target) {
+				throw Error("You must use the 'new' operator to call the constructor");
+			}
+
+			this.title = title;
+			this.author = author;
+			this.pages = pages;
+			this.read = read;
+			this.info = function () {
+				return this.title + " by " + this.author + ", " + this.pages + ", " + this.read;
+			};
+
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+:root {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	font-size: 16px;
+
+	/* https://www.thecolorapi.com/scheme?hex=101828&format=html */
+	--color-white:						oklch(1 0 0);
+	--color-licorice:					oklch(0.1703 0.0111 80.42);
+	--color-ebony:						oklch(0.21 0.034 264.665);
+	--color-cloudburst:				oklch(0.2953 0.0569 262.64);
+	--color-astronaut:				oklch(0.3805 0.0821 263.32);
+	--color-chambray:					oklch(0.4636 0.1043 262.91);
+	--color-wild-strawberry:	oklch(0.674 0.2347 0.2);
+	--color-pink:							oklch(0.87 0.075 0);
+
+}
+
+h1 {
+	font-size: 2rem;
+	font-weight: 700;
+}
+
+@media (prefers-color-scheme: dark) {
+	html {
+		background-color: var(--color-ebony);
+		color: var(--color-white);
+	}
+
+	a {
+		color: var(--color-chambray);
+	}
+
+	a {
+		color: var(--color-pink);
+	}
+}
